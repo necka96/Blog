@@ -5,7 +5,7 @@ function Home() {
  return (
    <main>
     <img src={image} alt="mackbook" className="absolute object-cover w-full h-full"/>
-    <section className="relative flex flex-col justify-center items-center min-h-screen  pt-3 py-64 px-12">
+    <section className="relative flex flex-col justify-center items-center min-h-screen  pt-3  px-12">
     <h1 className="text-6xl text-blue-100 font-bold sans-serif leading-none lg:leading-snug home-name">Aloha I'm Nemanja Djordjevic </h1>
     <p className="text-xl text-blue-100">I'm a {''} 
     <Typical 
