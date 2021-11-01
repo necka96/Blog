@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
  function NavBar() {
   return (
-     <header className="bg-blue-600">
+     <header className="bg-green-600">
    <div className="container mx-auto flex justify-between items-center md:items-stretch flex-col md:flex-row">
    <nav className="flex">
    <NavLink to="/" exact 
