@@ -11,5 +11,5 @@
   border-radius: 5px;
 }
 .home-name {
-  font-size: 4rem;
+  font-size: clamp(1rem, 5vw, 4rem);
 }
