@@ -28,7 +28,7 @@ function Project() {
    <section className="grid md:grid-cols-2 lg:grid-cold-3 gap-8">
    { prjectData && prjectData.map((project, index)=>(
    <article className="realativ rounded-lg shadow-xl bg-white p-16">
-   <h3 className="text-gray-800 text-xl md:text-3xl font-bold mb-2 hover:text-red-700">
+   <h3 className="text-gray-800 text-xl md:text-3xl mb-3 font-bold  hover:text-red-700">
     <a href={project.Link}
     alt= {project.title}
     target="_blank"
@@ -38,21 +38,26 @@ function Project() {
     </a>
    </h3>
    <div className="text-gray-500 text-xs ">
-  <div className="grid md:grid-cols-3">
+  <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
     <span>
-     <strong className="font-bold">Finished on</strong>:{" "}
+     <strong className="font-bold">Finished on</strong>: <br />
      {new Date(project.date).toLocaleDateString()}
     </span>
     <span>
-    <strong className="font-bold">Company</strong>:  {" "}
+    <strong className="font-bold">Company</strong>: <br />
     {project.place}
     </span>
     <span>
-    <strong className="font-bold">Type</strong>:{" "}
+    <strong className="font-bold">Type</strong>:<br />
     {project.projectType}
     </span>
+   <span>
+     <strong className="font-bold">Tags</strong>:<br />
+     {project.tags}
+   </span>
   </div>
    <p className="my-6 text-lh text-gray-700 leading-relaxed">{project.description}</p>
+   
    <a href={project.Link} rel="noopener noreferrer" target="_blank" className="text-red-500 font-bold hover:underline hover:text-red-400">
    <span role="img" aria-label="right-pointer">👉</span>{" "}
    View The Project
