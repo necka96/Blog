@@ -18,7 +18,7 @@ function Post() {
   }`)
   .then((data)=> setPost(data))
   .catch(console.error)
- },[])
+ },[postData])
 
  return (
   <main className="bg-green-100 min-h-screen p-12">
