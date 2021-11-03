@@ -14,6 +14,7 @@ function Home() {
     steps={["Frond-end developer", 1000, "AOI Viscom operater", 1000, "Economic tehnicial", 1000]}
     />
     </p>
+    
     </section>
    </main>
  )

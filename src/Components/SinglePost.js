@@ -5,7 +5,6 @@ import { useParams } from 'react-router-dom';
 import sanityClient from './../client';
 
 
-
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source){
  return builder.image(source)
@@ -38,9 +37,9 @@ function urlFor(source){
    <main className="bg-gray-200 min-h-screen p-12">
    <article className="container mx-auto shadow-lg bg-green-100 rounded-lg">
    <header className="realtive">
-   <div className="absolute h-full w-full items-center justify-center p-8">
+   <div className="absolute h-full w-full flex items-center justify-center p-8">
    <div className="bg-white bg-opacity-75 rounded p-12">
-   <h1 className="sans-serif text-3xl text-center lg:text-6xl mb-4">{singlePost.title}</h1>
+   <h1 className="sans-serif text-3xl lg:text-6xl mb-4">{singlePost.title}</h1>
    <div className="flex justify-center text-gray-800">
    <img 
    src={urlFor(singlePost.authorImage).url()} 
@@ -56,7 +55,7 @@ function urlFor(source){
    style={{height: "400px"}}
    />
    </header>
-   <div className="px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full"><BlockContent blocks={singlePost.body} projectId="s486tf11" dataset="production"/></div>
+   <div className="px-16 lg:px-48 py-12 lg:py-28 prose lg:prose-xl max-w-full"><BlockContent blocks={singlePost.body} projectId="s486tf11" dataset="production"/></div>
    </article>
    </main>
   )
