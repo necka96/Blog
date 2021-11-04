@@ -45,7 +45,7 @@ let timelineElements = [
     description:
       "Srednja tehnicka skola u Vlasotincu smer ekonmski tehnicar",
     buttonText: "Diploma srednje skole",
-    date: "2010 - 2015",
+    date: "2011 - 2015",
     icon: "school",
   },
 ];

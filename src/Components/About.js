@@ -22,7 +22,7 @@ function urlFor(source){
   }, [])
   if(!author) return <div>Loading... </div>
   return (
-   <main className="bg-green-100 h-auto w-full">
+   <main className="bg-green-100 h-auto w-full overflow-x-hidden">
    <div className="lg:p-12 container mx-auto">
    <section className="flex flex-col md:flex-row justify-center items-center p-10">
    <img src={urlFor(author.authorImage).url()} className="rounded w-full h-full lg:w-64 lg:h-64 mr-6" alt={author.name}/>

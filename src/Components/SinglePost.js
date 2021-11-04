@@ -34,10 +34,10 @@ function urlFor(source){
  }, [slug])
  if(!singlePost) return <div>Loading...</div>
   return (
-   <main className="bg-gray-200 min-h-screen p-12">
+   <main className="bg-gray-200 min-h-screen p-12 overflow-x-hidden">
    <article className="container mx-auto shadow-lg bg-green-100 rounded-lg">
    <header className="realtive">
-   <div className="absolute h-full w-full flex items-center justify-center p-8">
+   <div className="absolute  w-11/12  flex items-center justify-center p-8">
    <div className="bg-white bg-opacity-75 rounded p-12">
    <h1 className="sans-serif text-3xl lg:text-6xl mb-4">{singlePost.title}</h1>
    <div className="flex justify-center text-gray-800">

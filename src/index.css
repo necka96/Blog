@@ -30,7 +30,8 @@ h3 {
 }
 
 .date {
-  color: rgb(201, 251, 255);
+  color: rgb(12, 226, 241);
+  /* color: blue !important; */
 }
 
 #description {

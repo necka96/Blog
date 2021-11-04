@@ -1,7 +1,7 @@
 import React from 'react';
 import {
- VerticalTimeline,
- VerticalTimelineElement
+  VerticalTimeline,
+  VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { ReactComponent as SchoolIcon } from "../school.svg";
@@ -14,7 +14,7 @@ import { ReactComponent as WorkIcon } from "../work.svg";
   let workIconStyles = {background: "#06d6a0"}
   let schoolIconStyles = {background: "#f9c74f"}
  return (
-    <div>
+    <div className="pb-5">
       <h1 className="title">Timeline</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
