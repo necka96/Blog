@@ -35,8 +35,8 @@ function urlFor(source){
    <BlockContent blocks={author.bio} projectId="s486tf11" dataset="production"/>
    </div>
    <div className="mt-4">
-   <a href={cv} target="_blank" rel="noopener noreferrer"  className="p-4 text-white hover:bg-purple-700 rounded bg-purple-600 cursor-pointer">Download cv</a>
-   <a href="https://neckacv.netlify.app" target="_blank" rel="noopener noreferrer" className="p-4 text-white hover:bg-red-700 rounded bg-red-600 ml-2 cursor-pointer">View cv</a>
+   <a href={cv} target="_blank" rel="noopener noreferrer"  className="p-4 text-white hover:bg-purple-700 rounded bg-purple-600 cursor-pointer transition duration-500 ease-in-out">Download cv</a>
+   <a href="https://neckacv.netlify.app" target="_blank" rel="noopener noreferrer" className="p-4 text-white hover:bg-red-700 rounded bg-red-600 ml-2 cursor-pointer transition duration-500 ease-in-out">View cv</a>
    </div>
    </div>
    </section>
